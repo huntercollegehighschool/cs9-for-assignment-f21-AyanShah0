@@ -50,3 +50,7 @@ for x in range(number+1):
     print('buzz')
   else:
     print(x)
+
+'''
+Code here checks for divisibility by 3 and 5, 3, and 5.
+'''

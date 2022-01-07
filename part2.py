@@ -15,3 +15,7 @@ for i in range(n+1):
   answer += i**3
 
 print(answer)
+
+'''
+Code here will cube every number up to and including the number, then add up all answers.
+'''

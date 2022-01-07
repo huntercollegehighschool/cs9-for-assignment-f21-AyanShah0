@@ -25,3 +25,6 @@ block = '*'
 
 for x in range(height):
   print(block * base)
+
+'''
+Code here makes prints an asterisk the same amount of times as the base, done the amount of height times.
