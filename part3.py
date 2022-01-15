@@ -19,3 +19,12 @@ Enter the height: 3
 """
 
 #write your code here 
+base = int(input('Enter the base: '))
+height = int(input('Enter the height: '))
+block = '*'
+
+for x in range(height):
+  print(block * base)
+
+'''
+Code here makes prints an asterisk the same amount of times as the base, done the amount of height times.

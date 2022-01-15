@@ -40,3 +40,17 @@ fizz
 """
 
 # write your code here 
+number = int(input('Enter a number: '))
+for x in range(number+1):
+  if x % 3 == 0 and x % 5 == 0:
+    print('fizzbuzz')
+  elif x % 3 == 0:
+    print('fizz')
+  elif x % 5 == 0:
+    print('buzz')
+  else:
+    print(x)
+
+'''
+Code here checks for divisibility by 3 and 5, 3, and 5.
+'''

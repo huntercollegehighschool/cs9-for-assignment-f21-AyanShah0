@@ -8,3 +8,14 @@ For example, if the user types in 4, the program should print 100 (since 1^3 + 2
 """
 
 #write your code here
+n = int(input('Choose a positive whole number: '))
+answer = 0
+
+for i in range(n+1):
+  answer += i**3
+
+print(answer)
+
+'''
+Code here will cube every number up to and including the number, then add up all answers.
+'''
